@@ -11,6 +11,7 @@ export const getTasks = async (req: Request, res: Response): Promise<void> => {
         projectId: Number(projectId),
       },
       include: {
+        
         author: true,
         assignee: true,
         comments: true,
