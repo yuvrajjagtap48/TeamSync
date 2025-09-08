@@ -18,6 +18,7 @@ export const getTeams = async (req: Request, res: Response): Promise<void> => {
           where: { userId: team.projectManagerUserId! },
           select: { username: true },
         });
+        
 
         return {
           ...team,
