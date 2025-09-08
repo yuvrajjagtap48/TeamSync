@@ -14,6 +14,7 @@ export const search = async (req: Request, res: Response): Promise<void> => {
         ],
       },
     });
+    
 
     const projects = await prisma.project.findMany({
       where: {
