@@ -6,6 +6,7 @@ CREATE TABLE "User" (
     "profilePictureUrl" TEXT,
     "teamId" INTEGER,
 
+
     CONSTRAINT "User_pkey" PRIMARY KEY ("userId")
 );
 
