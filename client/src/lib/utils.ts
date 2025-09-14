@@ -19,6 +19,7 @@ export const dataGridSxStyles = (isDarkMode: boolean) => {
     "& .MuiTablePagination-selectIcon": {
       color: `${isDarkMode ? "#a3a3a3" : ""}`,
     },
+    
     "& .MuiDataGrid-cell": {
       border: "none",
     },
