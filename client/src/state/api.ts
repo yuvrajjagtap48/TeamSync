@@ -9,6 +9,7 @@ export interface Project {
   endDate?: string;
 }
 
+
 export enum Priority {
   Urgent = "Urgent",
   High = "High",
