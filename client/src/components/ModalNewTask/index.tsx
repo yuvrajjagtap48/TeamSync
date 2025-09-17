@@ -9,6 +9,7 @@ type Props = {
   id?: string | null;
 };
 
+
 const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
   const [createTask, { isLoading }] = useCreateTaskMutation();
   const [title, setTitle] = useState("");
